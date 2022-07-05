@@ -11,11 +11,19 @@
 			<CommandName>Form.Command.Заполнить</CommandName>
 			<ExtendedTooltip name="ЗаполнитьРасширеннаяПодсказка" id="2"/>
 		</Button>
+<<<<<<< HEAD
 		<InputField name="Реквизит1" id="3">
 			<DataPath>Реквизит1</DataPath>
 			<ContextMenu name="Реквизит1КонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="Реквизит1РасширеннаяПодсказка" id="5"/>
 		</InputField>
+=======
+		<Button name="Команда1" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Команда1</CommandName>
+			<ExtendedTooltip name="Команда1РасширеннаяПодсказка" id="4"/>
+		</Button>
+>>>>>>> client1
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -49,6 +57,9 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Заполнить</Action>
+		</Command>
+		<Command name="Команда1" id="2">
+			<Action>Команда1</Action>
 		</Command>
 	</Commands>
 </Form>
